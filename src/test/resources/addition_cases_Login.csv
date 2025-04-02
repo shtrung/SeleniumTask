@@ -1,0 +1,8 @@
+description, email, password, expected
+"Test_case_positive_login-1",shtrung.se@yandex.ru,shtrungSem24F,true
+"Test_case_negative_login-2",shtrung.se@yandex,shtrungSem24F,false
+"Test_case_negative_login-3",shtrung.se@yandex.ru,shtrungSem24FF,false
+"Test_case_negative_login-4",shtrung.se@google.com,shtrungSem24F,false
+"Test_case_negative_login-5",                    ,shtrungSem24F,false
+"Test_case_negative_login-6",shtrung.se@yandex.ru,             ,false
+"Test_case_negative_login-7",                    ,             ,false
